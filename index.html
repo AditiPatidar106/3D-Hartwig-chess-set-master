@@ -6,30 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <title>3D Hartwig chess set in HTML/CSS/JS</title>
+    <title>3D Hartwig Chess</title>
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
     <script src="js/prefixfree.min.js"></script>
   </head>
   <body>
     <div id="app" class="loading" data-theme="classic" data-frame="off" data-menu="main">
-      <div id="logo">
+<!--       <div id="logo">
         <div class="symbol"><div></div><div></div><div></div><div></div><div></div><div></div></div>
         <div class="symbol"><div></div><div></div><div></div><div></div><div></div><div></div></div>
         <div class="symbol"><div></div><div></div><div></div><div></div><div></div><div></div></div>
         <div class="symbol"><div></div><div></div><div></div><div></div><div></div><div></div></div>
         <div class="symbol"><div></div><div></div><div></div><div></div><div></div><div></div></div>
-      </div>
+      </div> -->
       <div id="overlay"></div>
       <div id="menu" class="main">
         <img id ="logoimg" src="img/logo.png" alt="hartwig chess set" />
         <section id="panes">
           <section id="themes" class="pane">
             <div id="themes-box">
-              <div class="set-theme" data-theme="classic"><div class="cube"></div></div>
+<!--               <div class="set-theme" data-theme="classic"><div class="cube"></div></div> -->
               <div class="set-theme" data-theme="marble"><div class="cube"></div></div>
-              <div class="set-theme" data-theme="flat"><div class="cube"></div></div>
-              <div class="set-theme" data-theme="wireframe"><div class="cube"></div></div>
+<!--               <div class="set-theme" data-theme="flat"><div class="cube"></div></div>
+              <div class="set-theme" data-theme="wireframe"><div class="cube"></div></div> -->
             </div>
             <input type="checkbox" id="frame-switch" onchange="toggleFrame(this)"/>
             <label for="frame-switch" class="btn white switch">Border</label>
@@ -41,7 +41,7 @@
             <button type="button" id="continue" class="btn">Play
             <button type="button" class="btn white menu-nav" data-menu="about">About
           </section>
-          <section id="about" class="pane">
+<!--           <section id="about" class="pane">
             <h1>About</h1>
             <p>Design and code by <a href="http://twitter.com/juliangarnier" target="_blank">@JulianGarnier</a></p>
             <p>Works only in webkit.</p>
@@ -49,9 +49,9 @@
             <p>Fork me on <a href="https://github.com/juliangarnier/3D-Artwig-chess-set" target="_blanc">Github<a></p>
             <h2>Libraries</h2>
             <p>Lighting effect : <a href="http://photon.attasi.com" target="_blank">Photon</a><br>
-              Moves and validation : <a href="https://github.com/jhlywa/chess.js" target="_blank">Chess.js</a></p>
+              Moves and validation : <a href="https://github.com/jhlywa/chess.js" target="_blank">Chess.js</a></p> 
             <button type="button" class="btn menu-nav" data-menu="main">Back</button>
-          </section>
+          </section> -->
         </div>
       <div id="top-bar">
         <button type="button" class="btn icon" data-state="inactive" id="undo"></button>
